@@ -1,0 +1,25 @@
+﻿.review-panel { margin-top: 20px; padding-top: 18px; border-top: 1px solid #2b3545; }
+.review-panel > button { font-size: 12px; color: #a0f3da; background: #19342e; border-color: #34564b; }
+.review-content { margin-top: 22px; }
+.review-content h4 { font-size: 14px; margin: 22px 0 10px; }
+.review-help { color: #a5b3c6; font-size: 12px; line-height: 1.7; }
+.review-content fieldset { padding: 0; border: 0; margin: 18px 0; min-width: 0; }
+.review-content fieldset:disabled { opacity: .65; }
+.review-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.review-content label { display: flex; flex-direction: column; gap: 8px; color: #b7c5d7; font-size: 12px; }
+.review-content input, .review-content select { width: 100%; min-width: 0; }
+.review-note { margin: 16px 0; }
+.review-note textarea { width: 100%; resize: vertical; min-height: 90px; font: inherit; font-size: 13px; color: #e9edf5; background: #090e16; border: 1px solid #354156; border-radius: 8px; padding: 12px; line-height: 1.6; }
+.review-note textarea:focus-visible { outline: 2px solid #87efce; outline-offset: 3px; }
+.save-review { background: #87efce; color: #10251d; border-color: #87efce; font-weight: 700; font-size: 12px; }
+.save-review:hover { background: #b0f8e1; }
+button:disabled { cursor: wait; }
+.review-error { color: #ffb4a5; font-size: 12px; line-height: 1.7; }
+.review-success { color: #a0f3da; font-size: 12px; }
+.review-history { padding: 0; list-style: none; display: grid; gap: 12px; }
+.review-history li { border-left: 2px solid #548e7b; padding: 12px 15px; background: #0d151f; border-radius: 0 8px 8px 0; }
+.history-heading { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.history-heading strong { color: #b4f1dc; font-size: 12px; }
+.history-heading time, .review-history small { color: #9dacbf; font-size: 11px; }
+.review-history p { color: #d3dce9; font-size: 12px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
+@media(max-width: 700px) { .review-fields { grid-template-columns: 1fr; } }

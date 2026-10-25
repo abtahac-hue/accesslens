@@ -1,0 +1,15 @@
+﻿.data-tools { border: 1px solid #2d443e; background: #101e1c; padding: 24px; border-radius: 14px; margin-bottom: 26px; }
+.data-tools h2 { font-size: 17px; }
+.data-tools p { color: #adbdc9; font-size: 12px; line-height: 1.8; }
+.data-actions { display: flex; align-items: flex-end; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+.csv-picker { flex: 1; min-width: 220px; display: flex; flex-direction: column; gap: 8px; font-size: 12px; color: #c3d1df; }
+.csv-picker input { width: 100%; font-size: 12px; }
+.csv-picker input::file-selector-button { background: #28483f; color: #d8f6eb; border: 0; padding: 6px 9px; border-radius: 5px; margin-right: 10px; cursor: pointer; }
+.data-actions button { font-size: 12px; min-height: 44px; }
+.data-tools .data-hint { color: #9eafa9; font-size: 11px; margin-bottom: 0; }
+.data-tools .data-success { color: #a0f3da; }
+.data-tools .data-error { color: #ffb4a5; white-space: pre-wrap; overflow-wrap: anywhere; }
+@media(max-width: 700px) {
+  .data-tools { padding: 18px; }
+  .csv-picker { min-width: 0; width: 100%; flex-basis: 100%; }
+}

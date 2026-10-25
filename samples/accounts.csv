@@ -1,0 +1,4 @@
+﻿username,department,privileged,mfa_enabled,days_inactive,employment_status
+demo.finance.admin,Finance,true,false,15,active
+demo.operations.lead,Operations,true,true,95,active
+demo.hr.coordinator,HR,false,true,3,active
