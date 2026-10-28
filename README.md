@@ -1,4 +1,10 @@
-﻿# AccessLens
+# AccessLens
+
+## Live demo
+
+[Open AccessLens](https://accesslens-abtaha.onrender.com/)
+
+Shared demonstration using fictional data. The free hosted service may take a moment to wake up. Imported accounts and reviews reset when the service restarts or redeploys.
 
 An account access review dashboard that turns an account inventory into explainable security findings and documented review decisions.
 
