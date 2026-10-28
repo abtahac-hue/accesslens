@@ -101,6 +101,14 @@ The current rules cover two specific conditions. An account without flags is not
 
 Inactivity is supplied in the inventory and does not update automatically. The application does not connect to a live identity provider or establish regulatory compliance.
 
+## Screenshots
+
+### Dashboard overview
+![AccessLens dashboard overview](docs/screenshots/overview.png)
+
+### Access review
+![Account details and access review history](docs/screenshots/access-review.png)
+
 ## Author
 
 Abtaha Chowdhury
